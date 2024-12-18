@@ -61,7 +61,7 @@ php -S localhost:8080
 http://localhost:8080/rtb_handler.php
 
 ## Example Output
-A successful bid response will look like this:
+##A successful bid response will look like this:
 {
     "id": "myB92gUhMdC5DUxndq3yAg",
     "seatbid": [
@@ -80,7 +80,7 @@ A successful bid response will look like this:
         }
     ]
 }
-nvalid or missing bid request or campaign data will result in a JSON error message, such as:
+## invalid or missing bid request or campaign data will result in a JSON error message, such as:
 
 
 {
