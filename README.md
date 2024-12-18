@@ -48,25 +48,20 @@ The **RTB Campaign Matching System** is designed to match real-time bid requests
    ```bash
    git clone https://github.com/yourusername/rtb-campaign-matching.git
 
-Start a Local Server: If using XAMPP, start the Apache server. Or you can use PHP’s built-in server:
+## Setup Project Files
 
-bash
-Copy code
+Ensure that `campaign.json` and `bid_request.json` are in the same directory as `rtb_handler.php`.
+
+## Start a Local Server
+
+If using XAMPP, start the Apache server. Or you can use PHP’s built-in server:
+
+```bash
 php -S localhost:8080
-Access the Script: Open the following URL in your browser to test the functionality:
-
-bash
-Copy code
 http://localhost:8080/rtb_handler.php
-How It Works
-Bid Request: A JSON object with bid details is sent to the rtb_handler.php script.
-Campaign Matching: The script loads campaign.json and filters campaigns based on the bid request.
-Response: The script sends back a JSON response containing the selected campaign, including the creative, campaign ID, and price.
-Example Output
-A successful bid response will look like this:
 
-json
-Copy code
+## Example Output
+A successful bid response will look like this:
 {
     "id": "myB92gUhMdC5DUxndq3yAg",
     "seatbid": [
@@ -85,12 +80,10 @@ Copy code
         }
     ]
 }
-Error Handling
-Invalid or missing bid request or campaign data will result in a JSON error message, such as:
-json
-Copy code
+nvalid or missing bid request or campaign data will result in a JSON error message, such as:
+
+
 {
     "error": "Invalid campaign data."
 }
-Contributing
-Feel free to fork the repository, make changes, and submit a pull request. Please ensure that your code follows the existing project structure and style.
+
