@@ -13,11 +13,26 @@ The **RTB Campaign Matching System** is designed to match real-time bid requests
 
 ## Project Structure
 
-/rtb_campaign_matching_system
-|-- campaign.json        // Example campaigns to match with bid requests
-|-- bid_request.json     // Example bid request JSON
-|-- rtb_handler.php      // PHP script that processes the bid request and matches with campaigns
-|-- README.md            // Project documentation
+
+- **campaign.json**: Contains a list of campaigns with details such as price, size, and supported operating systems.
+- **bid_request.json**: Contains the bid request data, including device details, geo-location, and requested bid price.
+- **rtb_handler.php**: The PHP script that processes the bid request and matches it with eligible campaigns.
+
+## Installation & Setup
+
+### Requirements
+
+- PHP version 7.4 or higher
+- A web server such as Apache or Nginx (or use PHP’s built-in server)
+- Optional: XAMPP or similar local server setup
+
+### Steps to Run
+
+1. **Clone the Repository**:
+   Clone the repository to your local system:
+   ```bash
+   git clone https://github.com/yourusername/rtb-campaign-matching.git
+
 ## Installation & Setup
 
 ### Requirements
