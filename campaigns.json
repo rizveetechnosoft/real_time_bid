@@ -1,0 +1,32 @@
+[
+    {
+        "campaign_id": "camp123",
+        "country": "BGD",
+        "price": 0.05,
+        "creative_id": "crea456",
+        "campaignname": "Campaign 1",
+        "image_url": "https://example.com/ad1.jpg",
+        "url": "https://example.com/campaign1",  
+        "dimension": "320x50",
+        "hs_os": "android,ios",
+        "formats": [
+            {"w": 320, "h": 50},
+            {"w": 776, "h": 393}
+        ]
+    },
+    {
+        "campaign_id": "camp124",
+        "country": "BGD",
+        "price": 0.10,
+        "creative_id": "crea457",
+        "campaignname": "Campaign 2",
+        "image_url": "https://example.com/ad2.jpg",
+        "url": "https://example.com/campaign2",  
+        "dimension": "667x375",
+        "hs_os": "android",
+        "formats": [
+            {"w": 667, "h": 375},
+            {"w": 640, "h": 360}
+        ]
+    }
+]
